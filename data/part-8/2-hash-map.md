@@ -713,7 +713,7 @@ public class Library {
     }
 
     public void addBook(Book book) {
-        String name = book.getName()
+        String name = book.getName();
         if (name == null) {
             name = "";
         }
